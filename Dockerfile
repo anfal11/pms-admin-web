@@ -6,27 +6,18 @@
 # EXPOSE 3000
 # CMD ["npm", "start"]
 
-# Use a base image that includes Node.js
-FROM node:18
+FROM node:18-alpine
 
-# Set the working directory
-WORKDIR /app
+WORKDIR /home/ubuntu/pms_admin_web
 
-# Install Python and other dependencies
-RUN apt-get update && apt-get install -y python3 python-is-python3
-
-# Copy package.json and package-lock.json
 COPY package*.json ./
 
 # Install npm dependencies
 RUN npm install
+RUN npm install express
 
 # Copy the rest of your application code
 COPY . .
-
-# Expose the necessary port (replace with your actual port)
-EXPOSE 3000
-
-# Command to run your application
+EXPOSE 9003
+# Command to start your application
 CMD ["npm", "start"]
-
