@@ -1,0 +1,14 @@
+.pulse {
+	animation: beat .6s infinite alternate;
+	transform-origin: center;
+}
+
+/* Heart beat animation */
+@keyframes beat{
+	to { transform: scale(.75); }
+}
+
+.colorPicker span div{
+	border: 1px solid #efefef;
+	border-radius: 50%;
+}

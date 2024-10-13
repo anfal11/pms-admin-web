@@ -1,0 +1,30 @@
+@import './base/bootstrap.scss';
+@import './base/bootstrap-extended.scss';
+@import './base/colors.scss';
+@import './base/components.scss';
+
+// Themes
+@import './base/themes/dark-layout.scss';
+@import './base/themes/bordered-layout.scss';
+@import './base/themes/semi-dark-layout.scss';
+// @import './base/custom-rtl.scss';
+
+// React Specific
+@import 'react/index';
+
+.custom-control{
+    z-index: 0 !important;
+}
+
+.custom_button {
+    cursor: pointer;
+    padding: 3px;
+    font-size: 9px;
+    border-radius: 9%;
+    padding-left: 0px;
+    margin: 5px;
+}
+
+.table-responsive{
+    padding-bottom: 100px !important;
+}

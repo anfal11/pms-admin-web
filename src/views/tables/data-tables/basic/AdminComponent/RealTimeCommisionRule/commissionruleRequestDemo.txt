@@ -1,0 +1,258 @@
+
+{
+   "commissionRuleName":"after eid",
+   "statusFlag":false,
+   "isDefault":false,
+   "isPoint":false,
+   "startDate":"2023-07-06 16:54",
+   "endDate":"2023-07-07 16:54",
+   "isFinBasedOffer":false,
+   "offerCount":0,
+   "offerAmount":0,
+   "isCertainTimeline":false,
+   "timelineType":" ",
+   "isTimelineRange":false,
+   "staticTimeline":0,
+   "startTimeline":0,
+   "endTimeline":0,
+   "isTime":false,
+   "startHour":" ",
+   "endHour":" ",
+  
+   "min":0,
+   "max":0,
+   "isQuota":false,
+   "quotaType":0,
+   "quotaCount":0,
+   "quotaAmount":0,
+   "isRxQuota":false,
+   "rxQuotaType":0,
+   "rxQuotaCount":0,
+   "rxQuotaAmount":0,
+   "flexibleRules":[
+      {
+         "startRange":0,
+         "isPercentage":false
+      }
+   ],
+   "returnCommissionId":1,
+   "outsideHourCommissionId":1,
+   "returnCertainTimelineId":1,
+   "isDailyOffer":false,
+   "pointExpireDays":0,
+
+   "commissionType":"fixed",
+   "isPercentage":false,
+   "snAmount":"5",
+   "rxAmount":"10",
+
+commissionType: fixed
+is_voucher_reward: true,
+snreward_voucherid : "V1-0001",
+rxreward_voucherid : "V1-0001",
+}
+
+
+
+
+
+
+{
+   "commissionRuleName":"after eid-2",
+   "statusFlag":false,
+   "isDefault":false,
+   "isPoint":false,
+   "startDate":"2023-07-06 17:01",
+   "endDate":"2023-07-07 17:01",
+   "isFinBasedOffer":false,
+   "offerCount":0,
+   "offerAmount":0,
+   "isCertainTimeline":false,
+   "timelineType":" ",
+   "isTimelineRange":false,
+   "staticTimeline":0,
+   "startTimeline":0,
+   "endTimeline":0,
+   "isTime":false,
+   "startHour":" ",
+   "endHour":" ",
+   "isQuota":false,
+   "quotaType":0,
+   "quotaCount":0,
+   "quotaAmount":0,
+   "isRxQuota":false,
+   "rxQuotaType":0,
+   "rxQuotaCount":0,
+   "rxQuotaAmount":0,
+   "flexibleRules":[
+      {
+         "startRange":0,
+         "isPercentage":false
+      }
+   ],
+   "returnCommissionId":1,
+   "outsideHourCommissionId":1,
+   "returnCertainTimelineId":1,
+   "isDailyOffer":false,
+   "pointExpireDays":0,
+
+
+   "commissionType":"fixed",
+   "isPercentage":true,
+   "snAmount":"3.3",
+   "rxAmount":"4.3",
+   "min":"2.3",
+   "max":"10.5",
+}
+
+
+
+
+
+
+
+
+{
+   "commissionRuleName":"eid v3",
+   "statusFlag":false,
+   "isDefault":false,
+   "isPoint":false,
+   "startDate":"2023-07-06 17:03",
+   "endDate":"2023-07-15 17:03",
+   "isFinBasedOffer":false,
+   "offerCount":0,
+   "offerAmount":0,
+   "isCertainTimeline":false,
+   "timelineType":" ",
+   "isTimelineRange":false,
+   "staticTimeline":0,
+   "startTimeline":0,
+   "endTimeline":0,
+   "isTime":false,
+   "startHour":" ",
+   "endHour":" ",
+   "snAmount":0,
+   "rxAmount":0,
+   "isPercentage":false,
+   "min":0,
+   "max":0,
+   "isQuota":false,
+   "quotaType":0,
+   "quotaCount":0,
+   "quotaAmount":0,
+   "isRxQuota":false,
+   "rxQuotaType":0,
+   "rxQuotaCount":0,
+   "rxQuotaAmount":0,
+ ,
+   "returnCommissionId":1,
+   "outsideHourCommissionId":1,
+   "returnCertainTimelineId":1,
+   "isDailyOffer":false,
+   "pointExpireDays":0,
+   "amount":0,
+
+
+   "commissionType":"flexible",
+    "flexibleRules":[
+      {
+         "startRange":"10",
+         "isPercentage":false,
+         "snAmount":"1",
+         "rxAmount":"2",
+         "endRange":"50"
+      },
+      {
+         "startRange":50.01,
+         "isPercentage":false,
+         "snAmount":"3",
+         "rxAmount":"4",
+         "endRange":"100"
+      },
+      {
+         "startRange":100.01,
+         "isPercentage":true,
+         "snAmount":"5",
+         "rxAmount":"6",
+         "endRange":"200",
+         "min":"2.3",
+         "max":"20.6"
+      },
+      {
+         "startRange":200.01,
+         "isPercentage":false,
+         "snAmount":"7",
+         "rxAmount":"8",
+         "endRange":"400"
+      },
+      {
+         "startRange":400.01,
+         "isPercentage":true,
+         "snAmount":"9",
+         "rxAmount":"10",
+         "endRange":"500",
+         "min":"5.5",
+         "max":"26"
+      }
+   ],
+
+commissionType: "flexible"
+is_voucher_reward: true,
+flexible_Reward_VoucherRules:[
+      {
+         "startRange":"10",
+         "endRange":"50",
+          snreward_voucherid : "V1-0001",
+          rxreward_voucherid : "V1-0001"
+         
+      },
+      {
+         "startRange":50.01,
+         "endRange":"100",
+          snreward_voucherid : "V1-0002",
+          rxreward_voucherid : "V1-0002"
+      },
+      {
+         "startRange":100.01,
+         "endRange":"200",
+          snreward_voucherid : "V1-0002",
+          rxreward_voucherid : null
+      },
+   ]
+}
+
+
+
+commissionType: fixed
+is_voucher_reward: true,
+snreward_voucherid : "V1-0001",
+rxreward_voucherid : "V1-0001",
+
+
+
+
+commissionType: "flexible"
+is_voucher_reward: true,
+flexible_Reward_VoucherRules:[
+      {
+         "startRange":"10",
+         "endRange":"50",
+          snreward_voucherid : "V1-0001",
+          rxreward_voucherid : null
+         
+      },
+      {
+         "startRange":50.01,
+         "endRange":"100",
+          snreward_voucherid : "V1-0002",
+          rxreward_voucherid : "V1-0002"
+      },
+      {
+         "startRange":100.01,
+         "endRange":"200",
+          snreward_voucherid : "V1-0002",
+          rxreward_voucherid : null
+      },
+   ]
+ 
+ 

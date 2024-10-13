@@ -1,0 +1,24 @@
+.payment-card{
+    width: 150px;
+    background: linear-gradient(45deg, #948bf4, #6c53a4);        
+    height: 100px;
+    color: white;
+    border-radius: 6px;
+    text-align: center;
+}
+.payment-card p:first-child {
+    font-size: 50px;
+    line-height: 50px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 7px;
+}
+.payment-card p:nth-child(2) {
+    font-size: 20px;
+}
+.pay4 .paycardBorder {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin: 0px 0px 5px 5px;
+}
+

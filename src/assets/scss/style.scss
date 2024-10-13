@@ -1,0 +1,238 @@
+.customfileuploadstyle {
+  .uppy-DragDrop-inner {
+    font-size: 0px !important;
+  }
+  .uppy-Root {
+    width: 80px !important;
+    height: 30px !important;
+    margin-top: 25px !important;
+  }
+  .uppy-DragDrop-arrow {
+    width: 19px !important;
+    height: 20px !important;
+    margin-top: 20px !important;
+  }
+}
+
+.customanttag {
+  .ant-tag {
+    padding: 5px !important;
+    background-color: #d8d8d8;
+  }
+  svg {
+    margin-top: -3px !important;
+    border: 1px solid #afa6a6 !important;
+    border-radius: 50% !important;
+    padding: 2px !important;
+    width: 14px !important;
+    height: 14px !important;
+  }
+  .card {
+    margin-bottom: 5px;
+    box-shadow: 0px 3px 10px 1px #e0dbdb !important;
+  }
+}
+
+.businessview {
+  .custom-control-label {
+    color: black !important;
+  }
+}
+
+.editrolly {
+  .modal-backdrop.in {
+    background: rgba(0, 0, 0, 0.5);
+  }
+}
+
+.imageupload {
+  .avatar-uploader > .ant-upload {
+    width: 128px;
+    height: 128px;
+  }
+}
+
+.detailsshowtable {
+  tr {
+    td {
+      border: none;
+    }
+  }
+}
+
+.textbold {
+  font-weight: bold;
+}
+.textalignright {
+  text-align: right;
+}
+
+.smallfontsize {
+  font-size: 12px;
+}
+// .text-primary{
+// 	color : #FC6A03 !important
+// }
+
+.CustomMapboxDesign {
+  .Mlajanmap-container {
+    position: relative;
+  }
+  #Mlajanmap {
+    width: 100%;
+    height: 40vh;
+  }
+  .Mlajancoordinates {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px 10px;
+    margin: 0;
+    font-size: 11px;
+    line-height: 18px;
+    border-radius: 3px;
+    display: none;
+  }
+}
+
+.rdt_TableCell, .rdt_TableRow {
+    color: #000 !important;
+  }
+
+
+  .facebbokConnectBtn, .facebbokConnectBtn:focus{
+    width: 132px;
+    height: 32px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    border: 1px solid #4CAF50;
+    border-radius: 8px;
+    display: inline-block;
+    padding-top: 5px;
+  }
+  .facebbokConnectBtn:focus{
+    outline: 1px dotted !important;
+  }
+  .facebookconnectDiv{
+    box-sizing: border-box;
+    width: 210px;
+    height: 175px;
+    background: #FFFFFF;
+    border: 1px solid #F6F7FB;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.08);
+    padding-top: 10px;
+  }
+
+.react-select {
+  min-width: 100px;
+}
+
+.textcomplete-dropdown {
+  border: 1px solid #ddd;
+  background-color: white;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.textcomplete-dropdown li {
+  margin: 0;
+}
+
+.textcomplete-footer,
+.textcomplete-item {
+  border-top: 1px solid #ddd;
+}
+
+.textcomplete-item {
+  padding: 2px 5px;
+  cursor: pointer;
+}
+
+.textcomplete-item:hover,
+.textcomplete-item.active {
+  background-color: rgb(110, 183, 219);
+}
+
+.realtimecomissionflaxiabletable {
+  .rdt_TableBody {
+    overflow-y: auto;
+    min-height: 300px !important;
+  }
+}
+
+.onlineruleselectorcreate {
+  .custom-option.checked {
+    border: 1px solid #7367f0;
+  }
+  .custom-option {
+    padding-left: 0;
+    border: 1px solid #434968;
+    border-radius: .375rem;
+  }
+  .form-check {
+    display: block;
+    min-height: 1.378125rem;
+    padding-left: 1.7em;
+    margin-bottom: .125rem;
+  }
+  .custom-option:hover {
+    border: 1px solid #5e6692;
+  }
+  .custom-option-basic .custom-option-content {
+    padding: 1.07em;
+    padding-left: 2.77em;
+  }
+
+  .custom-option .custom-option-content {
+    cursor: pointer;
+    width: 100%;
+  }
+  .custom-option-basic .custom-option-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: .25rem;
+ }
+}
+
+.RealTimeCommisionRuleLogicViewInCampaignPage {
+  background-color: #f0f0f0;
+  .card-body{
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+
+  }
+  .cardBody {
+    padding: 0 !important;
+  }
+  .cardHeader {
+    padding: 15px !important;
+  }
+}
+
+#Mlajanmap {
+  .mapboxgl-ctrl-top-left{
+    left : 120px !important;
+  }
+}
+
+.multilineBadge.badge {
+    white-space: normal !important
+}
+
+.transactionRewardCounter{
+  .card {
+    box-shadow: 0 4px 24px 0 rgba(34, 41, 47, 0.1) !important
+ }
+}
+
+
+#DynamicGroupProfiling {
+  .ant-picker-range {
+    position: relative !important;
+    display: inline-flex !important;
+  }
+}

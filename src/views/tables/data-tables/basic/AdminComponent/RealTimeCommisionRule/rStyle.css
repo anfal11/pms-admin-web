@@ -1,0 +1,27 @@
+/* .wid-100{
+    width: 100% !important;
+    height: 500px !important;
+} */
+.css-2b097c-container{
+    width: 100%
+}
+.ieTOoW{
+    margin-bottom: 80px !important;
+}
+.fNcYWv{
+    margin-bottom: 80px !important;
+}
+
+.fade-in {
+    animation: fadeIn ease .8s;
+  }
+  
+  
+  @keyframes fadeIn{
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
