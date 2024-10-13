@@ -14,7 +14,7 @@ COPY package*.json ./
 
 # Install npm dependencies
 RUN npm install
-RUN npm install express
+
 
 # Copy the rest of your application code
 COPY . .
